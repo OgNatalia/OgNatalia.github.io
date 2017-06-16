@@ -1,0 +1,288 @@
+@media screen and (min-width: 1600px) and (max-width: 2000px){
+    .icons ul li{
+        width: 55px;
+        height: 55px;
+    }    
+    .icon{
+        background-size: 600%;
+        width: 50px;
+        height: 50px;
+    }
+    .od{background-position: -245px -70px;}
+    .vk{background-position: -3px -70px;}
+    .tv{background-position: -66px -3px;}
+    .fb{background-position: -185px -3px;}
+    .gl{background-position: -3px -3px;}
+    .yan{background-position: -126px -70px;}
+    [name="feedback"]{margin-right: 5vw;}
+    img.foot_logo{margin-left: 5vw;}
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+}
+@media screen and (min-width: 1351px) and (max-width: 1599px){
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1350px){
+    img.foot_logo{width: 25vw; margin-left: 2vw;}
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1099px){
+    img.foot_logo{width: 16vw; margin-left: 1vw;}
+    .icons ul{width: 85px;padding: 0; margin-left: 5vw; margin-top: 2vw; float: left;}
+    .nav_main{background-position: -40px -20px;}
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 949px){
+    img.foot_logo{display: none;}
+    .icons ul{width: 33px; margin-top: 2vw; padding: 0; float: left;}
+    .nav_main{background: url("../img/background/background_main1.png") no-repeat;
+        background-position-y: -40px;    
+    }
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 809px){
+    .nav_main{background: url("../img/background/background_main1.png") no-repeat;
+        background-position-y: -40px; 
+    }
+    img.car{width: 100%}
+    img.foot_logo{display: none;}
+    .icons ul{width: 100%; clear: both; text-align: center; padding-left: 0px;}
+    .m_right{display: none;}
+    .content{width: 80vw;}
+    .footer_menu{margin-right: 0px;}
+    [name="feedback"]{width: 380px; padding: 0px; margin-left: 0px; height: 380px;}
+    [name="feedback"] p{font-size: 18px;} 
+    [name="feedback"]>label{font-size: 16px;}
+    [name="feedback"]>input{height: 25px; margin: 3px;}
+    [name="feedback"]>textarea{height: 90px; margin-left: 0px;}   
+    [name="feedback"]>label{width: 100%; text-align: center;} 
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 700px){
+    img.car{width: 100%}
+    img.foot_logo{display: none;}
+    .icons ul{width: 100%; clear: both; text-align: center; padding-left: 0px;}
+    .m_right{display: none;}
+    .content{width: 80vw;}
+    .nav_main{
+        background: url("../img/background/background_main1.png") no-repeat;
+        background-position-y: -40px;
+    }
+    .footer_menu{margin-left: 0px; margin-right: 0px;}
+    [name="feedback"]{width: 320px; padding: 0px; margin-left: 0px; height: 380px;}
+    [name="feedback"] p{font-size: 18px;} 
+    [name="feedback"]>label{font-size: 16px;}
+    [name="feedback"]>input{height: 25px; margin: 3px;}
+    [name="feedback"]>textarea{height: 90px; margin-left: 0px;}   
+    [name="feedback"]>label{width: 100%; text-align: center;} 
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.6);
+        -moz-transform: scale(1.6);
+        -o-transform: scale(1.6);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+    
+}
+@media screen and (min-width: 350px) and (max-width: 599px){
+    img.car{width: 100%}
+    img.foot_logo{display: none;}
+    .icons ul{width: 100%; clear: both; text-align: center; padding-left: 0px;}
+    .footer_menu ul li{display: inline-block;}
+    .m_right, .menu_left{display: none;}
+    .content_beg, .content_center, .content_center1, .content_center2, .content_end,
+    div.content_Mercedes, div.content_Redbull,
+    div.content_Ferrari, div.content_ForceIndia,
+    div.content_Williams, div.content_McLaren,
+    div.content_ToroRosso, div.content_Haas,
+    div.content_Renault, div.content_Sauber{display: block;}
+    .content{width: 100%}
+    .nav_main{
+        background: url("../img/background/background_main2.png") no-repeat;
+        background-position-y: -20px;}
+    .footer_menu{clear: both;}    
+    [name="feedback"]{width: 99%; padding: 0px; margin: 0 0 2vw 0; clear: both; height: 380px;} 
+    [name="feedback"] p{font-size: 18px;} 
+    [name="feedback"]>label{font-size: 16px;}
+    [name="feedback"]>input{height: 25px; margin: 3px;}
+    [name="feedback"]>textarea{height: 90px; margin-left: 0px;}   
+    [name="feedback"]>label{width: 100%; text-align: center;} 
+    .content_tracks div.image:hover{
+        -webkit-transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -o-transform: scale(1.3);
+        position: absolute;
+        z-index: 10;
+        background: #C1876B;
+        padding: 5px;
+    }
+    .content_tracks div.row_img{
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+    .content_tracks div.image:hover .ul_description{display: block; color: #F0FFFF;}
+    .content_tracks div.image:hover p{
+        font-size: 14px; 
+        color: #fff;
+    }
+}
+@media screen and (min-width: 270px) and (max-width: 349px){
+    img.logo{width: 230px; padding-left: 5px;}
+    img.car{width: 100%}
+    div.racers{
+        width: 230px;
+        margin-right: 2px; margin-left: 2px;
+    }
+    .img_racers{width: 180px;}
+    img.foot_logo{display: none;}
+    .footer_menu{width: 100%}
+    .icons ul{width: 100%; clear: both; text-align: center; padding-left: 0px;}
+    .footer_menu ul li{display: inline-block;}
+    .m_right, .menu_left{display: none;}
+    .content_beg, .content_center, .content_center1, .content_center2, .content_end,
+    div.content_Mercedes, div.content_Redbull,
+    div.content_Ferrari, div.content_ForceIndia,
+    div.content_Williams, div.content_McLaren,
+    div.content_ToroRosso, div.content_Haas,
+    div.content_Renault, div.content_Sauber{display: block;}
+    .content{width: 100%}
+    .nav_main{
+        background: url("../img/background/background_main2.png") no-repeat;
+        background-position-y: -20px;}
+    .footer_menu{clear: both;}    
+    [name="feedback"]{width: 99%; padding: 0px; margin: 0 0 2vw 0; clear: both; height: 400px;} 
+    [name="feedback"] p{font-size: 18px;} 
+    [name="feedback"]>label{font-size: 16px;}
+    [name="feedback"]>input{height: 25px; margin: 3px;}
+    [name="feedback"]>textarea{height: 90px; margin-left: 0px;}   
+    [name="feedback"]>label{width: 100%; text-align: center;} 
+    .content_beg img{width: 98%;}
+    img.left, img.right{width: 98%; margin-right: 0; clear: both;}
+    div.famous_left, div.famous_right{padding: 5px 5px 60px 5px; margin: 0px; width: 95%; clear: both;}
+    .famous_left img, .famous_right img{width: 200px;}
+    .slider{height: 180px;}
+    .content_tracks div.row_img{width: 270px;padding-top: 10px; padding-bottom: 10px;}
+    .image img{width: 250px;}
+    
+}

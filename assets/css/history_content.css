@@ -1,0 +1,27 @@
+div.famous_left, div.famous_right{
+    padding: 10px 10px 60px 10px;
+    border: solid 2px #AFEEEE;
+    position: relative;
+    margin-right: 10px; margin-left: 10px;
+    text-align: center;
+}
+div.famous_left, img.left{float: left;}
+div.famous_right, img.right{float: right;}
+div.famous_left p, div.famous_right p{position: absolute; padding: 0; width: 100%;}
+.famous_left img, .famous_right img{width: 250px;}
+img.left{width: 300px; margin-right: 10px;}
+img.right{width: 300px; margin-left: 10px;}
+
+input#radio_content_beg, input#radio_content_center1,
+input#radio_content_center2, input#radio_content_end{display:none;}
+.content_beg, .content_center1, .content_center2, .content_end{display: none;}
+input#radio_content_beg:checked ~ .content div.content_beg,
+input#radio_content_center1:checked ~ .content div.content_center1,
+input#radio_content_center2:checked ~ .content div.content_center2,
+input#radio_content_end:checked ~ .content div.content_end{display: block;}  
+label:hover{color: #F75E25;}
+input#radio_content_beg:checked ~ .menu_left [for="radio_content_beg"],
+input#radio_content_center1:checked ~ .menu_left [for="radio_content_center1"],
+input#radio_content_center2:checked ~ .menu_left [for="radio_content_center2"],
+input#radio_content_end:checked ~ .menu_left [for="radio_content_end"]
+{color: #F75E25;}

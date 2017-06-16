@@ -1,0 +1,340 @@
+body{margin:0; width: 100%; min-width: 250px;}
+h2{text-align: center;}
+h3{text-align: center; color: #151719; }
+.nav_main{
+    width: 100%;
+    margin: 0; padding: 0;
+    background: url("../img/background/background_main.jpg") no-repeat; 
+}
+.nav_main img{width: 30vw;}
+.nav_main ul{
+    float: left;
+    width: 100%;
+    list-style: none; 
+    text-align: center; 
+    margin: 0; padding: 0px; 
+    position: relative;
+    /*background: url("../img/background/flag1.png");*/
+    /*background: #007DFF;*/
+    background: #C1876B;
+    padding-top: 10px; padding-bottom: 10px;
+}
+.nav_main ul li{
+    display: inline;
+    margin: 0;
+    width: 100px;
+    font-size: 24px;
+    margin-left: 10px;
+    font-family: 'Scada', sans-serif; 
+    color: #fff;
+    /*color: red;*/
+    padding-top: 10px; padding-bottom: 10px;
+}
+/*a:visited{color:#0047AB;}*/
+.nav_main ul li a{text-decoration: none; padding-top: 10px; padding-bottom: 10px; color: #fff;}
+.nav_main ul li a:hover{color:  #f00; background-color: rgba(256, 256, 256, 0.7);}
+
+/*--------------------для content----------------------------------------------------------------*/
+.div_body{min-width: 200px; overflow: hidden; display: flex;}
+.content p{padding-left: 10px; padding-right: 10px;}
+.content{
+    font-family: 'Alice', serif;
+    width: 75vw;
+    background: #FFFAFA;
+    /*border:solid 2px;*/
+    /*box-shadow: 2px 0px 10px;*/
+}
+.menu_left ul{
+    list-style: none; 
+    text-align: center; 
+    margin: 0; padding-left: 0;
+}
+.menu_left ul li{
+    padding-bottom: 10px;
+    font-family: 'Scada', sans-serif;
+}
+.menu_left{
+    /*border: solid 2px red;*/
+    /*background: #AFEEEE;*/
+    width: 22vw;
+    background: linear-gradient(to left, #FBCEB1 0.3%, #FAEBD7 5%);
+}
+.m_right{
+    width: 22vw;
+    background: linear-gradient(to right, #FBCEB1 0.3%, #FAEBD7 5%);}
+/*---------------------------для таблицы table.calendar------------------------------*/ 
+table.calendar{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+/*---------------------------для таблицы champions----------------------------------*/
+img.cup{float: right; width: 300px;}
+table.champions_all, table.champions_name{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+/*---------------------------для footer---------------------------------------------*/
+footer{
+    width: 100%;
+    margin: 0; padding: 0;
+    background: #FFDEAD;
+    overflow-x: hidden;
+}
+.footer_menu{
+    width: calc(100%-500px);
+    margin-top: 1vw;
+    margin-left: 3vw;
+    float: left;
+    /*border: solid 2px;*/
+    padding: 10px;
+}
+.footer_menu ul{
+    list-style: none; 
+    margin: 0; padding: 0;
+    /*border: solid 2px;*/
+    width: 100%;
+}
+.footer_menu ul li{
+    font-size: 20px;
+    font-family: 'Scada', sans-serif;
+    /*display: inline-block;*/
+    padding: 10px;
+}
+.footer_menu h3{text-align: left;}
+.footer_menu a{text-decoration: none;}
+.footer_menu a:hover{text-decoration: underline;}
+
+.icons a:hover div.icon{border: solid 1px #DEAA88; padding: 0;}
+
+.icons ul{
+    width: 100%; 
+    list-style: none; 
+    text-align: center;
+}
+.icons ul li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    vertical-align: top;
+}    
+.icon{
+    background: url("../img/background/ikonki.png") no-repeat;
+    background-size: 535%;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.od{background-position: -129px -36px;}
+.vk{background-position: -1px -36px;}
+.tv{background-position: -33px -1px;}
+.fb{background-position: -97px -1px;}
+.gl{background-position: -1px -1px;}
+.yan{background-position: -65px -36px;}
+
+[name="feedback"]{
+    display: block;
+    float: right;
+    position: relative;
+    width: 450px; height: 350px;
+    /*margin: 0 2vw 2vw 0;*/
+    background: rgba(250, 240, 230, 0.7); 
+    padding: 0px 10px 10px 0px;
+    border: solid 1px #DEAA88;
+    text-align: center;
+    margin: 2vw 2vw; 
+    }
+[name="feedback"] p{font-family: 'Scada', sans-serif; color: #D95030; font-size: 20px;}    
+[name="feedback"]>label{
+    font-family: 'Scada', sans-serif; 
+    font-size: 18px;
+    display: block;
+    width: 220px;
+    text-align: right;
+    float: left;
+    /*border: solid 2px;*/
+}    
+[name="feedback"]>input{
+    width: 200px; height: 30px;
+    border: solid 1px #DEAA88; border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+[name="feedback"]>textarea{
+    width: 200px; height: 120px;
+    border: solid 1px #DEAA88; border-radius: 8px; 
+    margin-bottom: 10px; margin-left: 10px;}
+[name="feedback"]>button{
+    width: 120px; height: 40px;
+    background:linear-gradient(to top, #DEAA88 , #FAEBD7);
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Scada', sans-serif; 
+    font-size: 18px;
+}
+div.copy{clear: both; width: 100%; text-align: center; font-family: 'Scada', sans-serif;}
+img.foot_logo{width: 40vw;}
+/*---------------------------------------команды--------------------------------------*/
+img.logo{width: 350px; padding-left: 25px;}
+img.car{width: 65vw;}
+input#radio_content_Mercedes, input#radio_content_Redbull,
+input#radio_content_Ferrari, input#radio_content_ForceIndia,
+input#radio_content_Williams, input#radio_content_McLaren,
+input#radio_content_ToroRosso, input#radio_content_Haas,
+input#radio_content_Renault, input#radio_content_Sauber
+{display:none;}
+div.racers{
+    float: left;
+    border: solid 2px #AFEEEE;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px; margin-left: 10px;
+}
+.racers div{padding-top: 10px;}
+.img_racers{width: 200px;}
+p{padding-left: 10px;}
+
+div.content_Mercedes, div.content_Redbull,
+div.content_Ferrari, div.content_ForceIndia,
+div.content_Williams, div.content_McLaren,
+div.content_ToroRosso, div.content_Haas,
+div.content_Renault, div.content_Sauber{display: none;}
+input#radio_content_Mercedes:checked ~ .content div.content_Mercedes,
+input#radio_content_Redbull:checked ~ .content div.content_Redbull,
+input#radio_content_Ferrari:checked ~ .content div.content_Ferrari,
+input#radio_content_ForceIndia:checked ~ .content div.content_ForceIndia,
+input#radio_content_Williams:checked ~ .content div.content_Williams,
+input#radio_content_McLaren:checked ~ .content div.content_McLaren,
+input#radio_content_ToroRosso:checked ~ .content div.content_ToroRosso,
+input#radio_content_Haas:checked ~ .content div.content_Haas,
+input#radio_content_Renault:checked ~ .content div.content_Renault,
+input#radio_content_Sauber:checked ~ .content div.content_Sauber{display: block;}
+[for="radio_content_Mercedes"]:hover, [for="radio_content_Redbull"]:hover, [for="radio_content_Ferrari"]:hover,
+[for="radio_content_ForceIndia"]:hover, [for="radio_content_Williams"]:hover, [for="radio_content_McLaren"]:hover,
+[for="radio_content_ToroRosso"]:hover, [for="radio_content_Haas"]:hover, [for="radio_content_Renault"]:hover, 
+[for="radio_content_Sauber"]:hover{color: #F75E25;}
+input#radio_content_Mercedes:checked ~ .menu_left [for="radio_content_Mercedes"],
+input#radio_content_Redbull:checked ~ .menu_left [for="radio_content_Redbull"],
+input#radio_content_Ferrari:checked ~ .menu_left [for="radio_content_Ferrari"],
+input#radio_content_ForceIndia:checked ~ .menu_left [for="radio_content_ForceIndia"],
+input#radio_content_Williams:checked ~ .menu_left [for="radio_content_Williams"],
+input#radio_content_McLaren:checked ~ .menu_left [for="radio_content_McLaren"],
+input#radio_content_ToroRosso:checked ~ .menu_left [for="radio_content_ToroRosso"],
+input#radio_content_Haas:checked ~ .menu_left [for="radio_content_Haas"],
+input#radio_content_Renault:checked ~ .menu_left [for="radio_content_Renault"],
+input#radio_content_Sauber:checked ~ .menu_left [for="radio_content_Sauber"]
+{color: #F75E25;}
+/*--------------------------трассы------------------------------------------------*/
+.content_tracks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content_tracks div.row_img{
+    border: solid 2px #252850;
+    text-align: center;
+    background: #FFEBCD;
+    width: 330px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 2vw;
+}
+.image img{border: solid 1px #252850; width: 270px;}
+.ul_description{
+    list-style: none;
+    margin: 0; padding-left: 0;
+    font-size: 11px;
+    width: 300px;
+}
+.content_tracks .ul_description{display: none;}
+/*-------------------------------------чемпионы-------------------------------------------*/
+.sorting{width: 100%;
+    margin: 0; padding: 3px;
+    background: #FFEFD5;
+    text-align: center;
+    margin-bottom: 0;
+}
+.category{
+    position: relative; 
+    /*top: 40vh;*/
+    text-align: center; 
+    font-family: 'Scada', sans-serif;
+}
+ul.sorting_year, ul.sorting_name, ul.sorting_team{
+    width: 16vw;
+    border: solid 2px #EFCDB8;
+    margin-left: 10px;
+    background: #fff;
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    /*position: absolute;*/
+    top:150px;
+    /*z-index: 100;*/
+    transform: scale(0);
+    display:none;
+}
+@keyframes menu_scale{
+    0%{transform: scale(0);}
+    1%{transform: scale(0);}
+    100%{transform: scale(1); z-index: 100;}
+}
+[name="my_sort"]{display: none;}
+input#years:checked ~ ul.sort [for="years"], input#racers:checked ~ ul.sort [for="racers"],
+input#commands:checked ~ ul.sort [for="commands"]{color: #F75E25;}
+
+input#years:checked ~ ul.sorting_year, input#racers:checked ~ ul.sorting_name,
+input#commands:checked ~ ul.sorting_team{animation: menu_scale 1s; animation-fill-mode: forwards;display:block;}
+
+.sorting_year a, .sorting_name a, .sorting_team a{text-decoration: none; color: #000;}
+ul.sort li:hover, h3.all:hover, .sorting_year a:hover, .sorting_name a:hover, .sorting_team a:hover{color: #F75E25;}
+table.champions_name{display: none;}
+/*--------------------------------------------календарь------------------------------------------*/
+.foto2017{width: 100%;}
+/*-------------------------------------------видео-----------------------------------------------*/
+#video_container{
+  position: relative;
+  padding-bottom: 75%;
+}
+#video_container iframe {
+  position: absolute;
+  width: calc(100% - 120px);
+  height: calc(100% - 120px*3/4);
+}
+iframe{
+  display: none;
+   width:560px; height:315px;
+}
+#video_container div {
+  position: absolute;
+  top: 0; right: 0;
+  width: 110px; height: 100%;
+  padding: 5px;
+  overflow-y: auto;
+}
+#video_container img{
+  width: calc(100% - (5px + 7px)*2);
+  padding: 5px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+#video_container img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+#video_container img:focus {
+  opacity: .2;
+}
+input#i_video1, input#i_video2, input#i_video3, input#i_video4{display: none;}
+input#i_video1:checked ~ div#video_container iframe.video1,
+input#i_video2:checked ~ div#video_container iframe.video2,
+input#i_video3:checked ~ div#video_container iframe.video3,
+input#i_video4:checked ~ div#video_container iframe.video4
+{display: block;}
+
+

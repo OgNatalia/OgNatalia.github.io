@@ -1,0 +1,512 @@
+<html>
+    <head>
+        <title>Чемпионы Формулы-1</title>
+        <link href="https://fonts.googleapis.com/css?family=Alice|Scada" rel="stylesheet"> 
+        <link rel="stylesheet" href="assets/css/formula_menu.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/media.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">   
+    </head>
+    <body>
+        <a name="champions_beg"></a> 
+        <nav class="nav_main">
+            <img src="assets/img/logo/F1_logo.png">
+            <ul>
+                <li><a href="index.html#main_beg" title="Главная">Главная</a></li>
+                <li><a href="history.html#history_beg" title="История развития Формулы-1">История</a></li>
+                <li><a href="team.html#team_beg" title="Команды сезона 2017">Команды</a></li>
+                <li><a href="tracks.html#tracks_beg" title="Схемы трасс Формулы-1 сезона 2017">Трассы</a></li>
+                <li><a href="champions.html#champions_beg" title="Чемпионы Формулы-1">Чемпионы</a></li>
+                <li><a href="calendar.html#calendar_beg" title="Календарь гонок Формулы-1 сезона 2017">Календарь</a></li>
+                <li><a href="video.html#video_beg" title="Видео гонок Формулы-1">Видео</a></li>
+            </ul>
+        </nav>
+        <div class="div_body">
+            <div class="menu_left">
+                <div class="category">
+                    <h3>Сортировка</h3>
+                    <input type="radio" id="years" name="my_sort">
+                    <input type="radio" id="racers" name="my_sort">
+                    <input type="radio" id="commands" name="my_sort">
+                <ul class="sort">
+                    <li><label for="years">По годам</label></li>
+                    <li><label for="racers">По чемпионам</label></li>
+                    <li><label for="commands">По командам</label></li>
+                </ul>    
+                    
+                <ul class="sorting_year">
+                    <li class="decade" onclick='chek(this)'><a href="#table">Чемпионы 50-ых годов</a></li>
+                    <li class="decade" onclick='chek(this)'><a href="#table">Чемпионы 60-ых годов</a></li>
+                    <li class="decade" onclick='chek(this)'><a href="#table">Чемпионы 70-ых годов</a></li>
+                    <li class="decade" onclick='chek(this)'><a href="#table">Чемпионы 80-ых годов</a></li>
+                    <li class="decade" onclick='chek(this)'><a href="#table">Чемпионы 90-ых годов</a></li>
+                    <li class="decade" onclick='chek(this)'><a href="#table">Чемпионы XXI века</a></li>
+                </ul>
+                <ul class="sorting_name">
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Нино Фарина</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Хуан Мануэль Фанхио</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Альберто Аскари</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Майк Хоторн</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Джек Брэбем</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Фил Хилл</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Грэм Хилл</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Джим Кларк</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Джон Сёртис</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Денни Хьюм</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Джеки Стюарт</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Йохен Риндт</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Эмерсон Фиттипальди</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Ники Лауда</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Джеймс Хант</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Марио Андретти</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Джоди Шектер</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Алан Джонс</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Нельсон Пике</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Кеке Росберг</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Ален Прост</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Айртон Сенна</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Найджел Мэнселл</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Михаэль Шумахер</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Деймон Хилл</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Жак Вильнёв</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Мика Хаккинен</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Фернандо Алонсо</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Кими Райкконен</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Льюис Хэмилтон</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Дженсон Баттон</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Себастьян Феттель</a></li>
+                    <li class="sort_name" onclick='chek(this)'><a href="#table">Нико Росберг</a></li>
+                </ul>
+                <ul class="sorting_team">
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Alfa Romeo</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Ferrari</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Mercedes</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Maserati</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Red Bull Racing</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Cooper</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">BRM</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Lotus</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Brabham</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Matra</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Tyrrell</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">McLaren</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Williams</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Benetton</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Renault</a></li> 
+                    <li class="sort_team" onclick='chek(this)'><a href="#table">Brawn GP</a></li> 
+                </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content_beg">
+                    <h2>Чемпионы Формулы-1</h2>
+                    <p><img class="cup" src="assets/img/formula_cup.jpg">
+                        Титул чемпиона мира в классе «Формула-1» присуждается Международной автомобильной федерацией 
+                        (фр. Fédération Internationale de l'Automobile — FIA) наиболее успешному гонщику «Формулы-1», 
+                        набравшему наибольшее количество очков по итогам проводимых Гран-при. По регламенту 2005 года, 
+                        если двое или более пилотов набрали одинаковое количество очков за все зачётные этапы чемпионата
+                        мира, то чемпионом признается спортсмен, одержавший наибольшее количество побед в сезоне. 
+                        Если и количество побед одинаково, то рассматривают количество вторых мест, третьих и т. д. 
+                        Первый чемпионат был проведён в <strong>1950 году</strong>, и выиграл его <strong>Нино Фарина</strong>.
+                        Первым гонщиком, выигравшим несколько чемпионских титулов, стал <strong>Альберто Аскари</strong>,
+                        победивший <strong>в 1952 и 1953 годах</strong>.</p>
+                    <p>FIA официально не объявляет чемпиона мира до окончания сезона, однако практически принято считать,
+                        что чемпион определился, когда другие гонщики даже теоретически не смогут набрать больше очков, 
+                        чем данный пилот. Чемпион определялся в финальной гонке сезона в 23 сезонах из 56 проведённых. 
+                        Раньше всего чемпион был определён в <strong>2002 году</strong>, когда <strong>Михаэль Шумахер</strong>
+                        выиграл чемпионат <strong>за 6 гонок до его окончания</strong>.</p> 
+                    <p><strong>Всего 33 гонщика</strong> выигрывали чемпионат, при этом немец <strong>Михаэль Шумахер</strong>
+                        является рекордсменом — <strong>он выиграл титул семь раз</strong>. Шумахер также является рекордсменом
+                        по количеству титулов, выигранных подряд — с 2000 по 2004 год. <strong>В настоящее время чемпионом мира</strong>
+                        является немец <strong>Нико Росберг</strong>, выигравший свой первый титул в <strong>2016 году</strong>.
+                        Сразу после завоевания титула он объявил о завершении карьеры, <strong>поэтому в 2017 году впервые с 1994 года 
+                        в чемпионате не будет участвовать действующий чемпион</strong>.</p>
+                    
+                    <a name="table"></a> 
+                    <h3 class="all" onclick='chek(this)'>Все чемпионы Формулы-1</h3>
+                        
+                    <table width=97% border=2 bordercolor=#EFCDB8; class="champions_all">
+                        <col style="background: #FFEFD5;"><col><col>
+                        <tr style="background: #FFCFAB;">
+                            <th>Сезон</th>
+                            <th>Чемпион</th>
+                            <th>Команда</th>
+                        </tr>
+                        <tr>
+                            <td>1950</td>
+                            <td>Нино Фарина</td>
+                            <td>Alfa Romeo</td>
+                        </tr>
+                        <tr>
+                            <td>1951</td>
+                            <td>Хуан Мануэль Фанхио</td>
+                            <td>Alfa Romeo</td>
+                        </tr>
+                        <tr>
+                            <td>1952</td>
+                            <td>Альберто Аскари</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1953</td>
+                            <td>Альберто Аскари</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1954</td>
+                            <td>Хуан Мануэль Фанхио</td>
+                            <td>Mercedes</td>
+                        </tr>
+                        <tr>
+                            <td>1955</td>
+                            <td>Хуан Мануэль Фанхио</td>
+                            <td>Mercedes</td>
+                        </tr>
+                        <tr>
+                            <td>1956</td>
+                            <td>Хуан Мануэль Фанхио</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1957</td>
+                            <td>Хуан Мануэль Фанхио</td>
+                            <td>Maserati</td>
+                        </tr>
+                        <tr>
+                            <td>1958</td>
+                            <td>Майк Хоторн</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1959</td>
+                            <td>Джек Брэбем</td>
+                            <td>Cooper</td>
+                        </tr>
+                        <tr>
+                            <td>1960</td>
+                            <td>Джек Брэбем</td>
+                            <td>Cooper</td>
+                        </tr>
+                        <tr>
+                            <td>1961</td>
+                            <td>Фил Хилл</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1962</td>
+                            <td>Грэм Хилл</td>
+                            <td>BRM</td>
+                        </tr>
+                        <tr>
+                            <td>1963</td>
+                            <td>Джим Кларк</td>
+                            <td>Lotus</td>
+                        </tr>
+                        <tr>
+                            <td>1964</td>
+                            <td>Джон Сёртис</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1965</td>
+                            <td>Джим Кларк</td>
+                            <td>Lotus</td>
+                        </tr>
+                        <tr>
+                            <td>1966</td>
+                            <td>Джек Брэбем</td>
+                            <td>Brabham</td>
+                        </tr>
+                        <tr>
+                            <td>1967</td>
+                            <td>Денни Хьюм</td>
+                            <td>Brabham</td>
+                        </tr>
+                        <tr>
+                            <td>1968</td>
+                            <td>Грэм Хилл</td>
+                            <td>Lotus</td>
+                        </tr>
+                        <tr>
+                            <td>1969</td>
+                            <td>Джеки Стюарт</td>
+                            <td>Matra</td>
+                        </tr>
+                        <tr>
+                            <td>1970</td>
+                            <td>Йохен Риндт</td>
+                            <td>Lotus</td>
+                        </tr>
+                        <tr>
+                            <td>1971</td>
+                            <td>Джеки Стюарт</td>
+                            <td>Tyrrell</td>
+                        </tr>
+                        <tr>
+                            <td>1972</td>
+                            <td>Эмерсон Фиттипальди</td>
+                            <td>Lotus</td>
+                        </tr>
+                        <tr>
+                            <td>1973</td>
+                            <td>Джеки Стюарт</td>
+                            <td>Tyrrell</td>
+                        </tr>
+                        <tr>
+                            <td>1974</td>
+                            <td>Эмерсон Фиттипальди</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1975</td>
+                            <td>Ники Лауда</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1976</td>
+                            <td>Джеймс Хант</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1977</td>
+                            <td>Ники Лауда</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1978</td>
+                            <td>Марио Андретти</td>
+                            <td>Lotus</td>
+                        </tr>
+                        <tr>
+                            <td>1979</td>
+                            <td>Джоди Шектер</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>1980</td>
+                            <td>Алан Джонс</td>
+                            <td>Williams</td>
+                        </tr>
+                        <tr>
+                            <td>1981</td>
+                            <td>Нельсон Пике</td>
+                            <td>Brabham</td>
+                        </tr>
+                        <tr>
+                            <td>1982</td>
+                            <td>Кеке Росберг</td>
+                            <td>Williams</td>
+                        </tr>
+                        <tr>
+                            <td>1983</td>
+                            <td>Нельсон Пике</td>
+                            <td>Brabham</td>
+                        </tr>
+                        <tr>
+                            <td>1984</td>
+                            <td>Ники Лауда</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1985</td>
+                            <td>Ален Прост</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1986</td>
+                            <td>Ален Прост</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1987</td>
+                            <td>Нельсон Пике</td>
+                            <td>Williams</td>
+                        </tr>
+                        <tr>
+                            <td>1988</td>
+                            <td>Айртон Сенна</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1989</td>
+                            <td>Ален Прост</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1990</td>
+                            <td>Айртон Сенна</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1991</td>
+                            <td>Айртон Сенна</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1992</td>
+                            <td>Найджел Мэнселл</td>
+                            <td>Williams</td>
+                        </tr>
+                        <tr>
+                            <td>1993</td>
+                            <td>Ален Прост</td>
+                            <td>Williams</td>
+                        </tr>
+                        <tr>
+                            <td>1994</td>
+                            <td>Михаэль Шумахер</td>
+                            <td>Benetton</td>
+                        </tr>
+                        <tr>
+                            <td>1995</td>
+                            <td>Михаэль Шумахер</td>
+                            <td>Benetton</td>
+                        </tr>
+                        <tr>
+                            <td>1996</td>
+                            <td>Деймон Хилл</td>
+                            <td>Williams</td>
+                        </tr>
+                        <tr>
+                            <td>1997</td>
+                            <td>Жак Вильнёв</td>
+                            <td>Williams</td>
+                        </tr>
+                        <tr>
+                            <td>1998</td>
+                            <td>Мика Хаккинен</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>1999</td>
+                            <td>Мика Хаккинен</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>Михаэль Шумахер</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>2001</td>
+                            <td>Михаэль Шумахер</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>Михаэль Шумахер</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>2003</td>
+                            <td>Михаэль Шумахер</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>2004</td>
+                            <td>Михаэль Шумахер</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>2005</td>
+                            <td>Фернандо Алонсо</td>
+                            <td>Renault</td>
+                        </tr>
+                        <tr>
+                            <td>2006</td>
+                            <td>Фернандо Алонсо</td>
+                            <td>Renault</td>
+                        </tr>
+                        <tr>
+                            <td>2007</td>
+                            <td>Кими Райкконен</td>
+                            <td>Ferrari</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>Льюис Хэмилтон</td>
+                            <td>McLaren</td>
+                        </tr>
+                        <tr>
+                            <td>2009</td>
+                            <td>Дженсон Баттон</td>
+                            <td>Brawn GP</td>
+                        </tr>
+                        <tr>
+                            <td>2010</td>
+                            <td>Себастьян Феттель</td>
+                            <td>Red Bull Racing</td>
+                        </tr>
+                        <tr>
+                            <td>2011</td>
+                            <td>Себастьян Феттель</td>
+                            <td>Red Bull Racing</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>Себастьян Феттель</td>
+                            <td>Red Bull Racing</td>
+                        </tr>
+                        <tr>
+                            <td>2013</td>
+                            <td>Себастьян Феттель</td>
+                            <td>Red Bull Racing</td>
+                        </tr>
+                        <tr>
+                            <td>2014</td>
+                            <td>Льюис Хэмилтон</td>
+                            <td>Mercedes</td>
+                        </tr>
+                        <tr>
+                            <td>2015</td>
+                            <td>Льюис Хэмилтон</td>
+                            <td>Mercedes</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>Нико Росберг</td>
+                            <td>Mercedes</td>
+                        </tr>
+                    </table>
+                    <table width=97% border=2 bordercolor=#EFCDB8; class="champions_name"></table>
+                    <script type="text/javascript" src="assets/js/sort_table.js"></script> 
+                </div> 
+            </div>
+            <div class="m_right"></div>
+        </div>
+        <footer>
+             <div class="footer_menu">
+                <ul>
+                    <li><a href="formula.html#main_beg" title="Главная">Главная</a></li>
+                    <li><a href="history.html#history_beg" title="История развития Формулы-1">История</a></li>
+                    <li><a href="team.html#team_beg" title="Команды сезона 2017">Команды</a></li>
+                    <li><a href="tracks.html#tracks_beg" title="Схемы трасс Формулы-1 сезона 2017">Трассы</a></li>
+                    <li><a href="champions.html#champions_beg" title="Чемпионы Формулы-1">Чемпионы</a></li>
+                    <li><a href="calendar.html#calendar_beg" title="Календарь гонок Формулы-1 сезона 2017">Календарь гонок 2017</a></li>
+                    <li><a href="video.html#video_beg" title="Видео гонок Формулы-1">Видео</a></li>
+                </ul>
+            </div>
+            <form name="feedback">
+                <p>Обратная связь.<br> Пишите, будем рады любому отзыву!<br></p>
+                <label>Введите ваше имя:</label><input id="my_name" value="" type="text" name="my_name" required placeholder="Антон"><br>
+                <label>Введите ваш e-mail:</label><input id="e-mail" type="email" name="e-mail" required placeholder="e_mail@tut.by"><br>
+                <label>Введите текст сообщения:</label><textarea name="text" required placeholder="Сообщение"></textarea><br>
+                <button type="submit" name="send">Отправить</button>
+            </form>
+            <div class="icons">
+                <ul>
+                    <li><a href="https://ok.ru/" title="Одноклассники" target=_blank><div class="icon od"></div></a></li>
+                    <li><a href="https://vk.com/" title="ВКонтакте" target=_blank><div class="icon vk"></div></a></li>
+                    <li><a href="https://twitter.com/" title="Твиттер" target=_blank><div class="icon tv"></div></a></li>
+                    <li><a href="https://www.facebook.com/" title="facebook" target=_blank><div class="icon fb"></div></a></li>
+                    <li><a href="https://www.google.by/" title="Google" target=_blank><div class="icon gl"></div></a></li>
+                    <li><a href="https://yandex.by/" title="Яндекс" target=_blank><div class="icon yan"></div></a></li>
+                </ul>
+            </div>
+            <img class="foot_logo" src="assets/img/logo/F1_logo.png">
+            <div class="copy">
+                <p>&copy; 2017 Formula-1</p>
+            </div>
+        </footer>
+    </body> 
+</html>    
